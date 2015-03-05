@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>canvase</title>
+</head>
+
+<body>
+<p>Cavase</p>
+<canvas id="myCanvas" width="200" height="100" >
+	Your browser does not support the canvas element.
+</canvas>
+
+<script type="text/javascript">
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d")
+cxt.fillStyle="#FF0000";
+cxt.fillRect(0, 0, 150, 75);
+</script>
+
+</body>
+</html>

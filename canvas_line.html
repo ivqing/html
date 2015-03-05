@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>line</title>
+</head>
+
+<h1><em>LINE</em></h1>
+<canvas id="myCanvas" width="400" height="200" style="border: 1px solid #999;">
+	your browser does not support the canvas element.
+</canvas>
+
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+cxt.moveTo(10, 10);
+cxt.lineTo(150, 50);
+cxt.lineTo(10, 50);
+cxt.stroke();
+
+</script>
